@@ -1,0 +1,9 @@
+{
+    "name": "pixney/title_block-extension",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Pixney\\TitleBlockExtension\\": "src/"
+        }
+    }
+}
