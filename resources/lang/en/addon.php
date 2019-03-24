@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title'       => 'Title Block',
+    'title'       => 'Title',
     'name'        => 'Title Block Extension',
-    'description' => 'A title block'
+    'description' => 'A simple title field'
 ];
