@@ -27,7 +27,7 @@ class TitleBlockExtension extends BlockExtension
     {
         $settings      = app(SettingRepositoryInterface::class);
         $setting       = $settings->get('streams::standard_theme');
-        $this->wrapper = $setting->value . '::blocks/global/wrapper';
-        return $setting->value . '::blocks/title';
+        $this->wrapper = $setting->value . "::blocks/{$this->slug}/wrapper";
+        return $setting->value . "::blocks/{$this->slug}/content";
     }
 }
